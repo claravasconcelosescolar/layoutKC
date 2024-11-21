@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f1f5; /* Fundo suave e claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    background-color: #ff66b2; /* Rosa vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+#navbar {
+    background-color: #ff99cc; /* Rosa claro */
+    text-align: center;
+    padding: 15px 0;
+}
+
+#navbar ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+#navbar ul li {
+    margin: 0 20px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #ff3366; /* Cor de hover mais intensa */
+}
+
+
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ff66b2; /* Título em rosa */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+
+#portfolio {
+    background-color: #ffe6f2;
+}
+
+
+#testimonials {
+    background-color: #ffccf2;
+    font-style: italic;
+}
+
+blockquote {
+    background-color: #fff;
+    border-left: 5px solid #ff66b2;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+blockquote strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#contact {
+    background-color: #ff99cc;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3366;
+}
+
+
+#footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+#footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 30px 5%;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar ul li {
+        margin-bottom: 10px;
+    }
+}
